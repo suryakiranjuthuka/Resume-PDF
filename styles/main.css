@@ -88,7 +88,7 @@ html {
 
 @media print {
   #resume #contentContainer .resumeContainer {
-    margin: 0px auto;
+    margin: 0px auto 200px;
   }
 }
 
