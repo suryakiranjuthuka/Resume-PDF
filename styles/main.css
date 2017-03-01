@@ -1,0 +1,385 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.browsehappy {
+    margin: .2em 0;
+    background: #ccc;
+    color: #000;
+    padding: .2em 0
+}
+
+body, html, nav {
+    background-color: #263645
+}
+
+body, html {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    line-height: 1.4;
+    color: #2C3E50;
+    width: 100%;
+    height: 100%
+}
+
+html {
+    box-sizing: border-box
+}
+
+
+#resume {
+    background-color: #263645
+}
+
+
+#resume #contentContainer {
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    background-color: #263645;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1700px
+}
+
+#resume #contentContainer .resumeContainer {
+    max-width: 935px;
+    height: 1090px;
+    background-color: #fff;
+    font-size: 0;
+    margin: 100px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23)
+}
+
+@media print {
+  #resume #contentContainer .resumeContainer {
+    margin: 0px auto;
+  }
+}
+
+/*@media only screen and (max-width:950px) {
+    #resume #contentContainer .resumeContainer {
+        height: auto;
+        margin: 80px 50px
+    }
+}
+
+@media only screen and (max-width:570px) {
+    #resume #contentContainer .resumeContainer {
+        margin: 80px 15px
+    }
+}
+
+@media only screen and (max-width:470px) {
+    #resume #contentContainer .resumeContainer {
+        margin: 80px 10px
+    }
+}*/
+
+#resume #contentContainer .whiteHalf {
+    width: 570px;
+    display: inline-block;
+    background: #fff;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 50px 40px 50px 60px;
+    vertical-align: top
+}
+
+/*@media only screen and (max-width:950px) {
+    #resume #contentContainer .whiteHalf {
+        display: block;
+        width: 100%;
+        padding: 50px 50px 20px;
+        margin: 0 auto
+    }
+}
+
+@media only screen and (max-width:570px) {
+    #resume #contentContainer .whiteHalf {
+        padding: 50px 40px 20px
+    }
+}*/
+
+#resume #contentContainer .whiteHalf h1 {
+    font-size: 45px;
+    font-weight: 300;
+    color: #E74C3C;
+    line-height: 1.1
+}
+
+/*@media only screen and (max-width:950px) {
+    #resume #contentContainer .whiteHalf h1 {
+        text-align: center;
+        font-size: 40px
+    }
+}
+
+@media only screen and (max-width:470px) {
+    #resume #contentContainer .whiteHalf {
+        padding: 50px 15px 20px
+    }
+    #resume #contentContainer .whiteHalf h1 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 400
+    }
+}*/
+
+#resume #contentContainer .whiteHalf h2 {
+    font-size: 20.4px;
+    font-weight: 300;
+    color: #2C3E50;
+    margin-bottom: 40px
+}
+
+/*@media only screen and (max-width:950px) {
+    #resume #contentContainer .whiteHalf h2 {
+        text-align: center;
+        font-size: 18px
+    }
+}
+
+@media only screen and (max-width:470px) {
+    #resume #contentContainer .whiteHalf h2 {
+        font-size: 14px;
+        font-weight: 400
+    }
+}*/
+
+#resume #contentContainer .whiteHalf h3 {
+    font-size: 18px;
+    color: #2980b9;
+    font-weight: 900;
+    margin-left: 15px;
+    letter-spacing: .2px;
+    line-height: 1.3;
+    margin-bottom: 5px
+}
+
+/*@media only screen and (max-width:470px) {
+    #resume #contentContainer .whiteHalf h3 {
+        font-size: 16px
+    }
+}*/
+
+#resume #contentContainer .whiteHalf h4 {
+    font-size: 15px;
+    color: #3498db;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 15px;
+    line-height: 1.1
+}
+
+/*@media only screen and (max-width:470px) {
+    #resume #contentContainer .whiteHalf h4 {
+        font-size: 14px;
+        margin-top: 10px
+    }
+}*/
+
+#resume #contentContainer .whiteHalf p {
+    font-size: 14px;
+    color: #58595b;
+    margin-left: 15px;
+    line-height: 1.38
+}
+
+#resume #contentContainer .whiteHalf .degreeProject p, #resume #contentContainer .whiteHalf .jobExperience p {
+    margin-left: 25px
+}
+
+#resume #contentContainer .whiteHalf .degreeProject, #resume #contentContainer .whiteHalf .jobExperience, #resume #contentContainer .whiteHalf .profile {
+    margin: 40px 0 40px 25px;
+    border-left: 2px solid #E74C3C;
+    position: relative
+}
+
+#resume #contentContainer .whiteHalf .verticalText {
+    font-size: 14px;
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #E74C3C;
+    position: absolute;
+    left: -25px
+}
+
+#resume #contentContainer .whiteHalf .profile .verticalText {
+    top: 60px
+}
+
+#resume #contentContainer .whiteHalf .jobExperience .verticalText {
+    top: 117px
+}
+
+#resume #contentContainer .whiteHalf .degreeProject .verticalText {
+    top: 120px
+}
+
+/*@media only screen and (max-width:470px) {
+    #resume #contentContainer .whiteHalf .degreeProject, #resume #contentContainer .whiteHalf .jobExperience, #resume #contentContainer .whiteHalf .profile {
+        border-width: 0;
+        margin-left: 0
+    }
+    #resume #contentContainer .whiteHalf .verticalText {
+        -webkit-transform: none;
+        transform: none;
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        margin-bottom: 10px
+    }
+    #resume #contentContainer .whiteHalf .degreeProject .verticalText, #resume #contentContainer .whiteHalf .jobExperience .verticalText, #resume #contentContainer .whiteHalf .profile .verticalText {
+        top: 0
+    }
+}*/
+
+#resume #contentContainer .whiteHalf .project span {
+    color: #E74C3C;
+    font-weight: 900;
+    margin-left: 15px;
+    font-size: 14px;
+    float: left
+}
+
+#resume #contentContainer .blueHalf {
+    width: 365px;
+    display: inline-block;
+    background: #2C3E50;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px 0 50px 30px;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 1.45
+}
+
+/*@media only screen and (max-width:950px) {
+    #resume #contentContainer .blueHalf {
+        display: block;
+        width: 100%;
+        padding: 1px 50px 20px;
+        margin: 0 auto;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:570px) {
+    #resume #contentContainer .blueHalf {
+        text-align: left
+    }
+}
+
+@media only screen and (max-width:470px) {
+    #resume #contentContainer .blueHalf {
+        padding: 30px 15px 20px
+    }
+    #resume #contentContainer .blueHalf section {
+        margin: 30px 0
+    }
+}*/
+
+#resume #contentContainer .blueHalf section {
+    margin: 57px 0
+}
+
+#resume #contentContainer .blueHalf section h3 {
+    font-size: 18px;
+    color: #C6E8EF;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 8px
+}
+
+#resume #contentContainer .blueHalf section h4 {
+    color: #46BCFF;
+    margin: 25px 0 2px
+}
+
+#resume #contentContainer .blueHalf section .labelContainer {
+    color: #46BCFF;
+    text-align: right;
+    display: inline-block;
+    width: 75px;
+    vertical-align: top
+}
+
+#resume #contentContainer .blueHalf section .textContainer {
+    color: #efefef;
+    text-align: left;
+    display: inline-block;
+    width: 190px;
+    margin-left: 15px;
+    vertical-align: top
+}
+
+#resume #contentContainer .blueHalf section .skillsContainer1, #resume #contentContainer .blueHalf section .skillsContainer2, #resume #contentContainer .blueHalf section .skillsContainer3, #resume #contentContainer .blueHalf section .softwareContainer1, #resume #contentContainer .blueHalf section .softwareContainer2 {
+    color: #46BCFF;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top
+}
+
+#contact #contentContainer, #contact header {
+    position: relative;
+    background-color: #2C3E50;
+    text-align: center
+}
+
+/*@media only screen and (max-width:470px) {
+    #resume #contentContainer .blueHalf section .labelContainer, #resume #contentContainer .blueHalf section .skillsContainer1, #resume #contentContainer .blueHalf section .skillsContainer2, #resume #contentContainer .blueHalf section .skillsContainer3, #resume #contentContainer .blueHalf section .softwareContainer1, #resume #contentContainer .blueHalf section .softwareContainer2 {
+        margin-bottom: 10px
+    }
+}*/
+
+#resume #contentContainer .blueHalf section .skillsContainer1 {
+    width: 112px
+}
+
+#resume #contentContainer .blueHalf section .skillsContainer2 {
+    width: 90px
+}
+
+#resume #contentContainer .blueHalf section .softwareContainer1, #resume #contentContainer .blueHalf section .softwareContainer2 {
+    width: 112px
+}
