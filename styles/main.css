@@ -78,8 +78,8 @@ html {
 }
 
 #resume #contentContainer .resumeContainer {
-    max-width: 935px;
-    height: 1090px;
+    max-width: 940px;
+    height: 1290px;
     background-color: #fff;
     font-size: 0;
     margin: 100px auto;
@@ -113,7 +113,7 @@ html {
 }*/
 
 #resume #contentContainer .whiteHalf {
-    width: 570px;
+    width: 575px;
     display: inline-block;
     background: #fff;
     height: 100%;
@@ -321,7 +321,7 @@ html {
 }*/
 
 #resume #contentContainer .blueHalf section {
-    margin: 57px 0
+    margin: 50px 0
 }
 
 #resume #contentContainer .blueHalf section h3 {
@@ -329,7 +329,8 @@ html {
     color: #C6E8EF;
     font-weight: 900;
     text-transform: uppercase;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    word-spacing: 4px;
 }
 
 #resume #contentContainer .blueHalf section h4 {
@@ -354,7 +355,7 @@ html {
     vertical-align: top
 }
 
-#resume #contentContainer .blueHalf section .skillsContainer1, #resume #contentContainer .blueHalf section .skillsContainer2, #resume #contentContainer .blueHalf section .skillsContainer3, #resume #contentContainer .blueHalf section .softwareContainer1, #resume #contentContainer .blueHalf section .softwareContainer2 {
+#resume #contentContainer .blueHalf section .skillsContainer1, #resume #contentContainer .blueHalf section .skillsContainer2, #resume #contentContainer .blueHalf section .skillsContainer3, #resume #contentContainer .blueHalf section .softwareContainer1, #resume #contentContainer .blueHalf section .softwareContainer2, .businessContainer1, .businessContainer2 {
     color: #46BCFF;
     text-align: left;
     display: inline-block;
@@ -383,4 +384,8 @@ html {
 
 #resume #contentContainer .blueHalf section .softwareContainer1, #resume #contentContainer .blueHalf section .softwareContainer2 {
     width: 112px
+}
+
+#resume #contentContainer .blueHalf section .businessContainer1, #resume #contentContainer .blueHalf section .businessContainer2 {
+    width: 165px
 }
